@@ -48,8 +48,12 @@ The steps:
 7. Generate a CSV file from the result table (in current directory). 
 
 The resulting dataset contains the following variables:
+
 **activity**: One of the following six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed by persons wearing a smartphone (Samsung Galaxy S II) on the waist
+
 **subject**: the subject who performed the activity for each window sample	
+
 **feature**: the measurements on the mean and standard deviation for each feature measurement (see feature_info.txt included in de data set for a description of the features)
+
 **mean(measurement)**: The mean of the mesured values, summarised by activity, subject and feature.
 
