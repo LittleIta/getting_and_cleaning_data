@@ -86,5 +86,5 @@
 	Xy <- bind_rows(Xy_test, Xy_train)
 
 	result <- summarise(group_by(Xy, activity, subject, feature), mean(measurement))
-	write.csv(result, "result.csv", row.names=FALSE)
-
+	# write.csv(result, "result.csv", row.names=FALSE)
+	as.data.frame(result)
