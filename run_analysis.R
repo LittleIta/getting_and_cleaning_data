@@ -9,7 +9,7 @@
 	##
 	## The location of the dataset is contained in the variable UCI_HAR_Dataset
 	## by default the dataset is expected in the current directory.
-	if(!exists("UCI_HAR_Dataset")) UCI_HAR_Dataset <- "."
+	if(!exists("UCI_HAR_Dataset")) UCI_HAR_Dataset <- "UCI HAR Dataset"
 
 	## The tidy data set produced by step 5 is contained in the variable called "result"
 	## and written to the "result.csv" file in the curren directory.
